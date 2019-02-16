@@ -1,4 +1,4 @@
-#include <config.h>
+//#include <config.h>
 #include "exif-i18n.h"
 
 #ifdef HAVE_ICONV

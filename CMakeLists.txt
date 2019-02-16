@@ -24,6 +24,13 @@ else()
         libjpeg/jpeg-data.h
         libjpeg/jpeg-marker.c
         libjpeg/jpeg-marker.h
+        exif/utils.h
+        exif/utils.c
+        exif/exif-i18n.h
+        exif/exif-i18n.c
+        exif/actions.h
+        exif/actions.c
+        exif/main.c
     )
 
     target_include_directories(${PROJECT_NAME} PUBLIC ${OpenCV_DIR} PRIVATE . ${EXIF_INCLUDE_DIR})

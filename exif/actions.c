@@ -18,7 +18,7 @@
  * Boston, MA  02110-1301  USA.
  */
 
-#include "config.h"
+//#include "config.h"
 #include "actions.h"
 #include "exif-i18n.h"
 #include "libjpeg/jpeg-data.h"
@@ -37,6 +37,7 @@
 #define TAG_VALUE_BUF 1024
 
 #define SEP " "
+#define PACKAGE_BUGREPORT " "
 
 static void
 convert_arg_to_entry (const char *set_value, ExifEntry *e, ExifByteOrder o, ExifLog *log)

@@ -18,7 +18,9 @@
  * Boston, MA  02110-1301  USA.
  */
 
-#include "config.h"
+//#include "config.h"
+#define VERSION 1.0
+#define PACKAGE argv[0]
 
 #include <errno.h>
 #include <stdlib.h>
